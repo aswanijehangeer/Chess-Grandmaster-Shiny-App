@@ -1,0 +1,13 @@
+name: chess_grandmasters_shinyapp
+title: chess_grandmasters_shinyapp
+username:
+account: aswanijahangeer
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10480894
+bundleId: 7910546
+url: https://aswanijahangeer.shinyapps.io/chess_grandmasters_shinyapp/
+when: 1699607364.79437
+lastSyncTime: 1699607364.79439
+asMultiple: FALSE
+asStatic: FALSE
