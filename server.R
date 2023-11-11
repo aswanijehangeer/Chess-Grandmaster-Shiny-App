@@ -5,12 +5,18 @@ server <- function(input, output, session) {
     
     data <- gms_data
     
+    # filter by federations
     if (input$federation != "All Federations") {
       data <- filter(data, federation == input$federation)
     }
+    # filter by gender
     if (input$gender != "All") {
       data <- filter(data, gender == input$gender)
     }
+    
+    # filter by birth date range
+    data <- filter(data, date_of_birth >= input$birthdate[1] & date_of_birth <= input$birthdate[2])
+    
     data
   })
   # shiny alert ----
