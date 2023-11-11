@@ -5,9 +5,10 @@ account: aswanijahangeer
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 10480894
-bundleId: 7910546
+bundleId: 7914196
 url: https://aswanijahangeer.shinyapps.io/chess_grandmasters_shinyapp/
-when: 1699607364.79437
-lastSyncTime: 1699607364.79439
+when: 1699697495.22436
+lastSyncTime: 1699697495.2244
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: images/Chess Grandmasters Shiny App.webm|images/chess_grandmaster_shinyapp.png|LICENSE|README.md
