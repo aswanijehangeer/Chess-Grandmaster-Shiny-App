@@ -4,6 +4,8 @@
 # install.packages("shinyWidgets")
 # install.packages("shinyalert")
 # install.packages("shinydisconnect")
+# devtools::install_github("aswanijehangeer/ChessGMsdata")
+
 
 library(tidyverse)
 library(shiny)
