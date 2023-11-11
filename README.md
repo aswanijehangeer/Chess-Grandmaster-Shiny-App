@@ -1,4 +1,5 @@
 <h2 align="center"> Chess Grandmaster App ♟️</h2>
+<img src="images/chess-grandmasters.png" width="170" height="200" align="right"/>
 
 This Shiny app allows you to explore and filter grandmasters' birthplaces on the map. Hold your pointer over the icons to view names, and click to see a pop-up with additional information.
 
@@ -7,6 +8,7 @@ This Shiny app allows you to explore and filter grandmasters' birthplaces on the
 - **Welcome pop-up**: Welcome pop up with information about app.
 - **Filter by Federation**: Select a specific chess federation or view grandmasters from all federations.
 - **Filter by Gender**: Choose to display male, female, or all grandmasters.
+- **Filter by Birthdate**: Select a range of birth dates.
 - **Interactive Map**: Explore the birthplaces of grandmasters on the map with clickable markers.
 - **Data Summary**: Check the total number of grandmasters based on your selected filters.
 - **Disconnect Message**: Receive a notification if there is a disconnection from the app.
@@ -16,7 +18,7 @@ This Shiny app allows you to explore and filter grandmasters' birthplaces on the
 
 ## Screenshots
 
-![Chess Grandmaster App](images/chess_grandmaster_shinyapp.png)
+![Chess Grandmaster App](images/chess-grandmasters-shinyapp.png)
 
 ## Technologies Used
 
