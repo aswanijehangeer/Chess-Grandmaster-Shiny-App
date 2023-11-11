@@ -29,6 +29,10 @@ ui <- bootstrapPage(
                 pickerInput("gender", label = "Select a Gender:",
                             choices = list("All", Genders = unique(gms_data$gender)),
                             options = list(`live-search` = TRUE)),
+                sliderInput("birthdate", "Select a Birthdate:",
+                               min = as.Date(min(gms_data$date_of_birth)), 
+                               max = as.Date(max(gms_data$date_of_birth)), 
+                            value = as.Date(c("1865-02-27", "2009-02-05"))),
                 tags$div(
                   textOutput("total"),
                   style = "font-weight: bold;"
